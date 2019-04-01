@@ -1,0 +1,14 @@
+.mycontainer{
+    background-color: #252934;
+    height: 100vh;
+}
+
+.weathercontainer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}

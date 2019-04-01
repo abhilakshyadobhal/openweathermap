@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+
+    <main class="mycontainer" id="home">
+        <div class="weathercontainer container">
+            <form class="mb-5">
+                <div class="row">
+                    <div class="col-10">
+                        <input type="text" class="form-control text-center" placeholder="Enter city name" id="city"
+                            autocomplete="off">
+                    </div>
+                    <div class="col-2">
+                        <button type="button" autofocus class="btn btn-primary form-control text-center"
+                            id="button">CHECK</button>
+                    </div>
+                </div>
+            </form>
+
+            <h4 class="temp mr-2 d-inline">Temperature: <span id="temp"></span></h4>
+            <img class="icon" src="" class="d-inline">
+        </div>
+    </main>
+
+
+
+    <!-- javascript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
