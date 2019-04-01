@@ -1,5 +1,8 @@
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
 .mycontainer{
-    background-color: #252934;
+    background-color: #002c3e;
     height: 100vh;
 }
 
@@ -10,5 +13,38 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: white;
+    color: black;
+}
+
+.headings 
+{
+    color: #f7444e;
+}
+.card
+{
+    background-color: #FFFFFF;
+}
+
+#footer {
+    background: #0f0f0f;
+    /* Dark color/Footer color, can be changed via colors.css */
+    color: #fff;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer h2 {
+    display: inline-block;
+    color: #fff;
+}
+
+footer h4 {
+    padding: 0;
+    color: #fff;
+}
+
+.social span {
+    font-size: 28px;
+    margin: 12px 15px 0;
 }
