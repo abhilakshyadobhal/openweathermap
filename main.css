@@ -22,6 +22,9 @@
 }
 .card
 {
+    width: 25%;
+    border-radius: 20px; 
+    height: 30%;
     background-color: #FFFFFF;
 }
 
@@ -40,11 +43,92 @@ footer h2 {
 }
 
 footer h4 {
-    padding: 0;
     color: #fff;
 }
 
 .social span {
     font-size: 28px;
     margin: 12px 15px 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .headings h2{
+    font-size: 16px;
+    }
+
+    .headings img {
+        width: 40px;
+    }
+
+    .card{
+        width: 60%;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+    #footer h4{
+        font-size: 14px;
+    }
+
+    .social span{
+        font-size: 15px;
+        margin: 6px 10px ;
+    }
+}
+
+@media(min-width: 500px) and (max-width:600px){
+    .headings h2{
+    font-size: 20px;
+    }
+
+    .headings img {
+        width: 50px;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+        #footer h4{
+        font-size: 16px;
+    }
+
+    .social span{
+        font-size: 18px;
+        margin: 6px 10px ;
+    }
+}
+
+@media(min-width: 600px) and (max-width:768px){
+    .headings h2{
+    font-size: 22px;
+    }
+
+    .headings img {
+        width: 60px;
+    }
+
+    .card{
+        width: 40%;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+        #footer h4{
+        font-size: 16px;
+    }
+
+    .social span{
+        font-size: 18px;
+        margin: 6px 10px ;
+    }
 }
