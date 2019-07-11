@@ -2,7 +2,8 @@ $('button').on('click',checking);
 
 function checking()
 {
-    var city = $("#city").val();
+    var city  = document.getElementById("city").value;
+    console.log(city);
     $.ajax({
         type: 'GET',
         url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric" + "&APPID=af3f72199c0b9f7577f413ba180fecc7",

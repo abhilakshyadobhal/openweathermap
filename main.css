@@ -3,7 +3,8 @@
 }
 .mycontainer{
     background-color: #002c3e;
-    height: 100vh;
+    height: 85vh;
+    background-attachment: fixed;
 }
 
 .weathercontainer
@@ -28,12 +29,15 @@
     background-color: #FFFFFF;
 }
 
+.card input{
+    width: 80%;
+}
+
 #footer {
     background: #0f0f0f;
     /* Dark color/Footer color, can be changed via colors.css */
     color: #fff;
     bottom: 0;
-    position: fixed;
     width: 100%;
 }
 
@@ -42,7 +46,7 @@ footer h2 {
     color: #fff;
 }
 
-footer h4 {
+footer h5 {
     color: #fff;
 }
 
@@ -69,7 +73,7 @@ footer h4 {
         font-size: 12px;
     }
 
-    #footer h4{
+    #footer h5{
         font-size: 14px;
     }
 
@@ -96,7 +100,7 @@ footer h4 {
         font-size: 14px;
     }
 
-        #footer h4{
+        #footer h5{
         font-size: 16px;
     }
 
@@ -123,7 +127,7 @@ footer h4 {
         font-size: 14px;
     }
 
-        #footer h4{
+        #footer h5{
         font-size: 16px;
     }
 
